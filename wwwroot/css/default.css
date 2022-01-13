@@ -4,7 +4,7 @@
 
 label {
     font-size: 20px;
-    color: darkcyan;
+    color: navy;
     width: 150px;
     display: inline-block;
 }
@@ -16,3 +16,4 @@ text {
 li {
     list-style-type:none;
 }
+
