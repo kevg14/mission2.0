@@ -1,16 +1,16 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Mission 2 Assignment</title>
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/default.css" rel="stylesheet" />
-    <link href="img/favicon.ico"rel="shortcut icon"/>
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Mission 3";
+    ViewData["Header"] = "Welcome to the Site for IS 413 By Kevin Gutierrez!";
+
+}
 
 
-</head>
-<body>
-    <h1> Welcome to the Site for IS 413 By Kevin Gutierrez!</h1>
+
+
+    
     <!--- <img id="picKev" src="../img/skikev.jpg" /> -->
     <img width="200" id="picKev" src="../img/utahski.png" />
 
@@ -35,24 +35,8 @@
         <li>3: Business Consultant</li>
         <li>4: Web Developer</li>
     </ul>
-    <h2>Grade Calculator!</h2>
-    <form>
-        <label>Input Assignment Grade:</label> <br />
-        <input id="Assign" /><br />
-        <label>Input Group Project:</label> <br />
-        <input id="GroupProject" /><br />
-        <label>Input Quiz Grade: </label> <br />
-        <input id="Quizzes" /><br />
-        <label>InputExam Grade:</label> <br />
-        <input id="Exams" /><br />
-        <label>Input INTEX Grade:</label> <br />
-        <input id="INTEX" /><br />
+    
 
-        <input id="btnSend" type="button" value="Send Message" />
-    </form>
+    @*<script src="~/lib/jquery/jquery-3.6.0.min.js"></script>*@
+    @*<script src="~/js/FanMail.js"></script>*@
 
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
-    <script src="js/FanMail.js"></script>
-</body>
-</html>
